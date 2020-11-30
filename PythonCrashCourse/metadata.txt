@@ -1,0 +1,3 @@
+Metadata:
+	the story behind the data. Getting information is one thing, but how it was created, where and by whome can ogter be illuminating.
+
