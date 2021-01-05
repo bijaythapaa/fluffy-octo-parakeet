@@ -17,6 +17,7 @@ def caught_speeding(speed, is_birthday):
 
 print("How fast was he going?")
 speed = int(input("Km/hr: "))
+
 print("Ask when is his Birthday. If it's Today, write yes else, write no.")
 value = input("yes/no: ")
 birthday = False

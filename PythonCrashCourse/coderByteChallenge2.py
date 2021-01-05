@@ -1,14 +1,11 @@
 def SeatingStudents(arr):
 
-  # code goes here
   bench = arr[0]
   taken = list(x for x in arr)[1:]
 
-  # col1= list(x%2==0 for x in range(1, bench+1))
   seq1 = list(x for x in range(1, bench+1))
   seq2 = list(x for x in range(1, bench+1))
-  # col1 = list(map(lambda x: x%2==0, seq1))
-  # col2 = list(map(lambda x: x%2 != 0, seq2))
+
   col1 = list(filter(lambda x: x%2==0, seq1))
   col2 = list(filter(lambda x: x%2 != 0, seq2))
 
@@ -29,7 +26,6 @@ def SeatingStudents(arr):
   
   return (len(rows)+len(cols))
 
-# keep this function call here 
 print SeatingStudents(raw_input())
 
 
